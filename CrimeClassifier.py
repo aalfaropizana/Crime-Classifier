@@ -7,7 +7,7 @@ import numpy as np
 from sklearn.naive_bayes import BernoulliNB
 from nltk.tokenize import RegexpTokenizer
 
-f = codecs.open('/Usuarios/Aealfarop/Documents/Harvard/Crime Classifier/stopwords.txt', 'r', encoding='utf8')
+f = codecs.open('/Usuarios/Aealfarop/Documents/Crime Classifier/stopwords.txt', 'r', encoding='utf8')
 st = f.read()
 f.close()
 stopwords = set(st.split())
